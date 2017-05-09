@@ -13,18 +13,18 @@ $ pip install -U pytest
 ```
 ---
 ### Run
-To run unittests:
+To run unittests:  
     ```
     $ python tests/base_tests.py
-    ```
-To run server/create room:
+    ```  
+To run server/create room:  
     ```
     $ sudo python createPlayroom.py
     ```
-To run client/join room:
+To run client/join room:  
     ```
     $ sudo python joinRoom.py
-    ```
+    ```  
 
 ### Todos
  - Scoreboard
