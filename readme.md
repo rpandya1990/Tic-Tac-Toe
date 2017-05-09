@@ -20,7 +20,7 @@ To run unittests:
 To run server/create room:  
     ```
     $ sudo python createPlayroom.py
-    ```
+    ```  
 To run client/join room:  
     ```
     $ sudo python joinRoom.py
