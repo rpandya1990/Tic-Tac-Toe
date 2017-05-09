@@ -45,8 +45,6 @@ class Slave(Base):
 					blocks = self.check("X")[0]
 					p1 = self.getcenter(blocks[0])
 					p2 = self.getcenter(blocks[1])
-					print p1
-					print p2
 					line = Line(p1, p2)
 			  		line.setFill('black')
 			  		line.setWidth(5)
@@ -74,7 +72,7 @@ class Slave(Base):
 					t.setText("YOU LOST")
 					t.setSize(20)
 					self.s.send("WIN")
-					time.sleep(10)
+					time.sleep(3)
 					self.s.close()
 					break
 				if self.checkForDraw():
