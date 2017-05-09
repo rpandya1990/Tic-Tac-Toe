@@ -105,7 +105,7 @@ class Base(object):
         return None, False
 
     def checkForDraw(self):
-        if not self.check('O') and not self.check('X'):
+        if not self.check('O')[1] and not self.check('X')[1]:
             if None in self.matrix:
                 return False
             else:
