@@ -1,5 +1,5 @@
 # Two Player Tic Tac Toe
-![Logo](https://raw.githubusercontent.com/rpandya1990/Tic-Tac-Toe/master/Images/Snap.png)
+![Logo](https://github.com/rpandya1990/Tic-Tac-Toe/blob/master/media/Snap.png)
 
 My attempt to learn about Python sockets
 
